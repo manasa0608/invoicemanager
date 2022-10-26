@@ -13,6 +13,7 @@ Steps involved:
 2. For each item compute the tax and make the entry into the invoice_item table.
 3. Track the sum of all tax computed in a variable 
 4. Add the tax computed to the amount and make entry into the table using JPA
+5. JUnit test cases using Mockito.
 
 
 This project contains:
@@ -28,3 +29,4 @@ SpringBoot
 Lombok
 JPA
 H2
+JUnit
